@@ -1,0 +1,19 @@
+.section__hero {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.hero__info {
+	display: flex;
+	flex-direction: column;
+}
+
+.hero__avatar {
+	display: flex;
+	position: relative;
+}
+
+.hero__avatar img {
+	border: 3px solid #000;
+}
