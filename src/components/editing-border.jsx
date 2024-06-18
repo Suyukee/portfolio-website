@@ -2,7 +2,7 @@ import styles from '../styles/editing-border.module.css';
 
 export default function EditingBorder(props) {
 	return (
-		<div>
+		<div className={styles.borderWrapper}>
 			{props.children}
 			<span className={`${styles.dot} ${styles.dotUpLeft}`} />
 			<span className={`${styles.dot} ${styles.dotUpRight}`} />
