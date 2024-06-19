@@ -21,7 +21,11 @@
 
 @media (max-width: 920px) {
 	.section__hero {
-		gap: 40px;
+		gap: 90px;
+	}
+	.hero__avatar img {
+		width: 250px;
+		height: 250px;
 	}
 }
 

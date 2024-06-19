@@ -29,6 +29,11 @@ h2 {
 	font-weight: 400;
 }
 
+h3 {
+	font-size: 24px;
+	font-weight: 400;
+}
+
 .main {
 	margin: 40px auto;
 	max-width: 1080px;
@@ -38,9 +43,21 @@ h2 {
 }
 
 .section {
-	padding: 40px 0;
+	padding: 40px 32px;
 	background: #fff;
 	border: 6px solid #000;
 	border-radius: 36px;
 	box-shadow: 10px 10px 0 #000;
+}
+
+@media (max-width: 920px) {
+	h1 {
+		font-size: 32px;
+	}
+	h2 {
+		font-size: 24px;
+	}
+	h3 {
+		font-size: 20px;
+	}
 }
