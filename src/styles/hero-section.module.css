@@ -1,36 +1,36 @@
-.section__hero {
+.hero {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 150px;
 }
 
-.hero__info {
+.info {
 	display: flex;
 	flex-direction: column;
 }
 
-.hero__avatar {
+.avatar {
 	display: flex;
 	position: relative;
 }
 
-@media (max-width: 880px) {
-	.section__hero {
+@media (max-width: 890px) {
+	.hero {
 		gap: 90px;
 	}
-	.hero__avatar img {
+	.avatar img {
 		width: 200px;
 		height: 200px;
 	}
 }
 
 @media (max-width: 700px) {
-	.section__hero {
+	.hero {
 		flex-direction: column-reverse;
 		gap: 14px;
 	}
-	.hero__info {
+	.info {
 		align-items: center;
 	}
 }
