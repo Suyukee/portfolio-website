@@ -54,6 +54,7 @@ h3 {
 @media (max-width: 880px) {
 	.main {
 		margin: 5px auto 15px;
+		gap: 18px;
 	}
 	h1 {
 		font-size: 32px;

@@ -1,0 +1,18 @@
+.section__stack {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+}
+
+@media (max-width: 880px) {
+	.section__stack {
+		gap: 20px;
+	}
+}
+
+@media (max-width: 700px) {
+	.section__stack {
+		gap: 14px;
+	}
+}

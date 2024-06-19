@@ -15,10 +15,6 @@
 	position: relative;
 }
 
-.hero__avatar img {
-	border: 3px solid #000;
-}
-
 @media (max-width: 880px) {
 	.section__hero {
 		gap: 90px;
