@@ -46,6 +46,7 @@ h3 {
 	margin: 0 15px 0 5px;
 	padding: 40px 32px;
 	background: #fff;
+	color: #000;
 	border: 6px solid #000;
 	border-radius: 36px;
 	box-shadow: 10px 10px 0 #000;
@@ -67,6 +68,7 @@ h3 {
 	}
 	.section {
 		padding: 30px 24px;
+		box-shadow: 5px 5px 0 #000;
 	}
 }
 
