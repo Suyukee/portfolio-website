@@ -31,14 +31,14 @@ h2 {
 
 .main {
 	margin: 40px auto;
-	max-width: 900px;
+	max-width: 1080px;
 	display: flex;
 	flex-direction: column;
 	gap: 40px;
 }
 
 .section {
-	padding: 40px 60px;
+	padding: 40px 0;
 	background: #fff;
 	border: 6px solid #000;
 	border-radius: 36px;

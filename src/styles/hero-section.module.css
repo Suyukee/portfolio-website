@@ -1,7 +1,8 @@
 .section__hero {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	gap: 150px;
 }
 
 .hero__info {
@@ -16,4 +17,20 @@
 
 .hero__avatar img {
 	border: 3px solid #000;
+}
+
+@media (max-width: 920px) {
+	.section__hero {
+		gap: 40px;
+	}
+}
+
+@media (max-width: 700px) {
+	.section__hero {
+		flex-direction: column-reverse;
+		gap: 14px;
+	}
+	.hero__info {
+		align-items: center;
+	}
 }
