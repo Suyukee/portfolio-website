@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import styles from '../styles/hero-section.module.css';
-import EditingBorder from './editing-border';
+import EditingBorder from '../utils/editing-border';
 
 export default function HeroSection() {
 	return (
