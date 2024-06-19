@@ -43,6 +43,7 @@ h3 {
 }
 
 .section {
+	margin: 0 15px 0 5px;
 	padding: 40px 32px;
 	background: #fff;
 	border: 6px solid #000;
@@ -51,6 +52,9 @@ h3 {
 }
 
 @media (max-width: 920px) {
+	.main {
+		margin: 10px auto;
+	}
 	h1 {
 		font-size: 32px;
 	}
