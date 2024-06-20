@@ -12,9 +12,12 @@
 	box-shadow: 5px 5px 0 #000;
 }
 
-/* .button:hover {
-	background: #7da9fb;
-} */
+.button:hover {
+	/* box-shadow: none; */
+	transform: translateX(3px) translateY(3px);
+	transition: 0.1s ease-out;
+	box-shadow: 3px 3px 0 #000;
+}
 
 .active {
 	background: #ffc700;

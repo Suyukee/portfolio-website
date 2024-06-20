@@ -1,4 +1,4 @@
-import styles from '../styles/editing-border.module.css';
+import styles from '../../styles/editing-border.module.css';
 
 export default function EditingBorder(props) {
 	return (
