@@ -13,6 +13,10 @@
 }
 
 .button:hover {
+	color: #131313;
+}
+
+.button:active {
 	/* box-shadow: none; */
 	transform: translateX(3px) translateY(3px);
 	transition: 0.1s ease-out;
