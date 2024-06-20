@@ -22,7 +22,11 @@
 
 @media (max-width: 700px) {
 	.button {
-		width: 128px;
-		height: 60px;
+		padding: 0 8px;
+		width: auto;
+		height: 46px;
+		border: 2px solid #000;
+		border-radius: 12px;
+		box-shadow: 3px 3px 0 #000;
 	}
 }
