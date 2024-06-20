@@ -1,4 +1,4 @@
-import styles from '../../styles/filter-button.module.css';
+import styles from '../../styles/project-tag.module.css';
 
 export default function ProjectTag({ name, onClick, isSelected }) {
 	return (

@@ -44,6 +44,10 @@
 		width: 218px;
 		box-shadow: 4px 4px 0 #000;
 	}
+	.card:active {
+		transform: translateX(2px) translateY(2px);
+		box-shadow: 2px 2px 0 #000;
+	}
 	.card img {
 		width: 218px;
 		height: 218px;
@@ -58,5 +62,9 @@
 	.card {
 		width: 218px;
 		box-shadow: 3px 3px 0 #000;
+	}
+	.card:active {
+		transform: translateX(2px) translateY(2px);
+		box-shadow: 1px 1px 0 #000;
 	}
 }
