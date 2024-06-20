@@ -13,7 +13,9 @@
 
 .cards {
 	display: flex;
+	justify-content: left;
 	gap: 24px;
+	flex-wrap: wrap;
 }
 
 @media (max-width: 890px) {
@@ -29,7 +31,7 @@
 	.filter {
 		gap: 8px;
 	}
-	.cards {
+	/* .cards {
 		flex-direction: column;
-	}
+	} */
 }

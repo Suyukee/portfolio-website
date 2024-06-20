@@ -45,6 +45,8 @@ h3 {
 .section {
 	margin: 0 15px 0 5px;
 	padding: 40px 32px;
+	display: flex;
+	justify-content: center;
 	background: #fff;
 	color: #000;
 	border: 6px solid #000;
