@@ -8,20 +8,16 @@ export default function ProjectSection() {
 			id: 1,
 			title: 'Калькулятор интегрирования',
 			image: '/images/project-cards/1.jpg',
+			gitUrl: 'https://github.com/Suyukee/define-integral',
 			tag: ['All'],
 		},
 		{
 			id: 2,
 			title: 'Игра на память',
 			image: '/images/project-cards/2.jpg',
+			gitUrl: 'https://github.com/Suyukee/memory-game',
 			tag: ['All'],
 		},
-		// {
-		// 	id: 3,
-		// 	title: '',
-		// 	image: '',
-		// 	tag: ['All'],
-		// },
 	];
 	return (
 		<section className="section">
@@ -34,7 +30,12 @@ export default function ProjectSection() {
 				</div>
 				<div className={styles.cards}>
 					{projectsData.map((project) => (
-						<ProjectCard key={project.id} title={project.title} imgUrl={project.image} />
+						<ProjectCard
+							key={project.id}
+							title={project.title}
+							imgUrl={project.image}
+							gitUrl={project.gitUrl}
+						/>
 					))}
 				</div>
 			</div>
