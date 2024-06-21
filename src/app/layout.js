@@ -9,14 +9,14 @@ export const metadata = {
 };
 
 export const viewport = {
-	colorScheme: 'light',
+	colorScheme: 'only light',
 };
 
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<head>
-				<meta name="color-scheme" content="light" />
+				<meta name="color-scheme" content="only light" />
 			</head>
 			<body className={comicSans.className}>{children}</body>
 		</html>
