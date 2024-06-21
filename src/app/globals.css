@@ -94,16 +94,6 @@ h3 {
 	}
 }
 
-@media (prefers-color-scheme: dark) {
-	html {
-		color-scheme: dark;
-	}
-	body {
-		color: #000;
-		background: #fff;
-	}
-	.section {
-		color: #000;
-		background: #fff;
-	}
+:root {
+	color-scheme: only light;
 }

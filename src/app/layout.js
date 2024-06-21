@@ -11,6 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+			<head>
+				<meta name="color-scheme" content="only light" />
+			</head>
 			<body className={comicSans.className}>{children}</body>
 		</html>
 	);
