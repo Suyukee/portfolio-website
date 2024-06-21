@@ -47,7 +47,7 @@ h3 {
 	padding: 40px 32px;
 	display: flex;
 	justify-content: center;
-	background: #fff;
+	background: #fff !important;
 	color: #000;
 	border: 6px solid #000;
 	border-radius: 36px;
