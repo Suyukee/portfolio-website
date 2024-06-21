@@ -55,7 +55,7 @@ h3 {
 }
 
 :root {
-	color-scheme: only light;
+	color-scheme: light;
 }
 
 @media (max-width: 890px) {

@@ -15,6 +15,9 @@ export const viewport = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
+			<head>
+				<meta name="color-scheme" content="light" />
+			</head>
 			<body className={comicSans.className}>{children}</body>
 		</html>
 	);
