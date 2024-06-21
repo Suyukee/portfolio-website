@@ -9,16 +9,15 @@ export const metadata = {
 };
 
 export const viewport = {
-	themeColor: '#000000',
+	themeColor: [
+		{ media: '(prefers-color-scheme: light)', color: '#f8f8f8' },
+		{ media: '(prefers-color-scheme: dark)', color: '#212529' },
+	],
 };
 
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<head>
-				<meta name="theme-color" media="(prefers-color-scheme: light)" content="#000000" />
-				<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
-			</head>
 			<body className={comicSans.className}>{children}</body>
 		</html>
 	);
