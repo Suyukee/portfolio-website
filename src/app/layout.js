@@ -8,11 +8,16 @@ export const metadata = {
 	description: 'Portfolio website',
 };
 
+export const viewport = {
+	themeColor: '#000000',
+};
+
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
 			<head>
-				<meta name="color-scheme" content="only light" />
+				<meta name="theme-color" media="(prefers-color-scheme: light)" content="#000000" />
+				<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
 			</head>
 			<body className={comicSans.className}>{children}</body>
 		</html>
