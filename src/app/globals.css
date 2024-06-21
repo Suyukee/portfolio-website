@@ -98,6 +98,10 @@ h3 {
 	html {
 		color-scheme: dark;
 	}
+	body {
+		color: #000;
+		background: #fff;
+	}
 	.section {
 		color: #000;
 		background: #fff;
