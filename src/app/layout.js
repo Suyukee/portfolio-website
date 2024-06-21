@@ -4,8 +4,12 @@ import './globals.css';
 const comicSans = localFont({ src: '../../public/fonts/comic-sans.ttf' });
 
 export const metadata = {
-	title: 'Portfolio website',
-	description: 'Portfolio',
+	title: 'Portfolio',
+	description: 'Portfolio website',
+};
+
+export const viewport = {
+	colorScheme: 'light',
 };
 
 export default function RootLayout({ children }) {
