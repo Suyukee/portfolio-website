@@ -70,9 +70,13 @@
 	.card img {
 		width: 160px;
 		height: 160px;
+		border-top: 2px solid #000;
+		border-left: 2px solid #000;
+		border-right: 2px solid #000;
 	}
 	.title {
 		width: 160px;
-		height: 70px;
+		height: 60px;
+		border: 2px solid #000;
 	}
 }
