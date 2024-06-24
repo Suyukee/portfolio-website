@@ -60,7 +60,7 @@
 
 @media (max-width: 700px) {
 	.card {
-		width: 200px;
+		width: 180px;
 		box-shadow: 3px 3px #000;
 	}
 	.card:active {
@@ -68,11 +68,11 @@
 		box-shadow: 1px 1px #000;
 	}
 	.card img {
-		width: 200px;
-		height: 200px;
+		width: 180px;
+		height: 180px;
 	}
 	.title {
-		width: 200px;
+		width: 180px;
 		height: 70px;
 	}
 }
