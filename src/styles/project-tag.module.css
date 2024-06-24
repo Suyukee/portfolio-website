@@ -32,7 +32,7 @@
 	background: #ffc700;
 }
 
-@media (max-width: 890px) {
+@media (max-width: 890px) or (max-height: 900px) {
 	.button {
 		width: 140px;
 		height: 70px;

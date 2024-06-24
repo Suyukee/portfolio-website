@@ -18,7 +18,7 @@
 	flex-wrap: wrap;
 }
 
-@media (max-width: 890px) {
+@media (max-width: 890px) or (max-height: 900px) {
 	.project {
 		gap: 30px;
 	}
