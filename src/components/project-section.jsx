@@ -11,35 +11,35 @@ const projectsData = [
 		title: 'Калькулятор интегрирования',
 		image: '/images/project-cards/1.jpg',
 		gitUrl: 'https://github.com/Suyukee/define-integral',
-		tag: ['Все', 'TypeScript', 'Мобильный'],
+		tag: ['Все', 'TypeScript'],
 	},
 	{
 		id: 2,
 		title: 'Игра на память',
 		image: '/images/project-cards/2.jpg',
 		gitUrl: 'https://github.com/Suyukee/memory-game',
-		tag: ['Все', 'Мобильный'],
+		tag: ['Все'],
 	},
 	{
 		id: 3,
 		title: 'Блог',
 		image: '/images/project-cards/3.jpg',
 		gitUrl: 'https://github.com/Suyukee/blog-on-react',
-		tag: ['Все', 'Мобильный'],
+		tag: ['Все', 'API'],
 	},
 	{
 		id: 4,
 		title: 'Отель Solar',
 		image: '/images/project-cards/4.jpg',
 		gitUrl: 'https://github.com/Suyukee/hotel-solar',
-		tag: ['Все', 'Мобильный'],
+		tag: ['Все'],
 	},
 	{
 		id: 5,
 		title: 'Сайт портфолио',
 		image: '/images/project-cards/5.jpg',
 		gitUrl: 'https://github.com/Suyukee/portfolio-website',
-		tag: ['Все', 'Мобильный'],
+		tag: ['Все'],
 	},
 ];
 
@@ -62,11 +62,7 @@ export default function ProjectSection() {
 						onClick={handleTagChange}
 						isSelected={tag === 'TypeScript'}
 					/>
-					<ProjectTag
-						name={'Мобильный'}
-						onClick={handleTagChange}
-						isSelected={tag === 'Мобильный'}
-					/>
+					<ProjectTag name={'API'} onClick={handleTagChange} isSelected={tag === 'API'} />
 				</div>
 				<div className={styles.cards}>
 					{filteredProjects.map((project) => (
