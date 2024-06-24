@@ -60,10 +60,19 @@
 
 @media (max-width: 700px) {
 	.card {
+		width: 200px;
 		box-shadow: 3px 3px #000;
 	}
 	.card:active {
 		transform: translateX(2px) translateY(2px);
 		box-shadow: 1px 1px #000;
+	}
+	.card img {
+		width: 200px;
+		height: 200px;
+	}
+	.title {
+		width: 200px;
+		height: 70px;
 	}
 }
