@@ -58,6 +58,7 @@ h3 {
 @media (max-width: 890px) or (max-height: 900px) {
 	.main {
 		margin: 5px auto;
+		max-width: 890px;
 		gap: 18px;
 	}
 	h1 {
