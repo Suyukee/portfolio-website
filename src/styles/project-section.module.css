@@ -30,7 +30,7 @@
 	}
 }
 
-@media (max-width: 700px) {
+@media (max-width: 700px) or (max-height: 600px) {
 	.project {
 		gap: 20px;
 	}
