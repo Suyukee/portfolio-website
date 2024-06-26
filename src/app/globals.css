@@ -55,6 +55,35 @@ h3 {
 	box-shadow: 10px 10px 0 #000;
 }
 
+.button {
+	width: 160px;
+	height: 74px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #689bf7;
+	color: #fff;
+	font-family: inherit;
+	border: 4px solid #000;
+	border-radius: 20px;
+	box-shadow: 5px 5px #000;
+	cursor: pointer;
+	user-select: none;
+
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-tap-highlight-color: transparent;
+}
+
+.button:hover {
+	opacity: 0.9;
+}
+
+.button:active {
+	transform: translateX(3px) translateY(3px);
+	transition: ease-in;
+	box-shadow: 2px 2px #000;
+}
+
 @media (max-width: 890px) or (max-height: 900px) {
 	.main {
 		margin: 5px auto;
@@ -73,6 +102,16 @@ h3 {
 	.section {
 		padding: 30px 24px;
 		box-shadow: 8px 8px 0 #000;
+	}
+	.button {
+		width: 140px;
+		height: 70px;
+		border: 3px solid #000;
+		box-shadow: 4px 4px #000;
+	}
+	.button:active {
+		transform: translateX(2px) translateY(2px);
+		box-shadow: 2px 2px #000;
 	}
 }
 
@@ -94,5 +133,17 @@ h3 {
 		padding: 20px 10px;
 		border: 4px solid #000;
 		box-shadow: 6px 6px 0 #000;
+	}
+	.button {
+		padding: 0 8px;
+		width: auto;
+		height: 46px;
+		border: 2px solid #000;
+		border-radius: 12px;
+		box-shadow: 3px 3px #000;
+	}
+	.button:active {
+		transform: translateX(2px) translateY(2px);
+		box-shadow: 1px 1px #000;
 	}
 }
