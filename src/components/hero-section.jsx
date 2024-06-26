@@ -14,7 +14,7 @@ export default function HeroSection() {
 						<h2>frontend-разработчик</h2>
 					</div>
 					<div className={styles.resume}>
-						<Link className="button" href="/files/resume.pdf">
+						<Link className="button" href="/files/резюме.pdf">
 							<h3>Резюме</h3>
 						</Link>
 					</div>
