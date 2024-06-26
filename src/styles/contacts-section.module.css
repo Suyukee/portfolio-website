@@ -45,5 +45,6 @@
 @media (max-width: 440px) {
 	.text {
 		width: 340px;
+		text-justify: none;
 	}
 }
