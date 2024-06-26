@@ -8,8 +8,16 @@ export default function HeroSection() {
 		<section className="section">
 			<div className={styles.hero}>
 				<div className={styles.info}>
-					<h1>Привет, я Вова</h1>
-					<h2>frontend-разработчик</h2>
+					<div></div>
+					<div className={styles.person}>
+						<h1>Привет, я Вова</h1>
+						<h2>frontend-разработчик</h2>
+					</div>
+					<div className={styles.resume}>
+						<Link className="button" href="/files/resume.pdf">
+							<h3>Резюме</h3>
+						</Link>
+					</div>
 				</div>
 				<Link className={styles.avatar} href="https://github.com/Suyukee">
 					<EditingBorder>
